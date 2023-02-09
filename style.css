@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400,500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", "sens-serif";
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: aliceblue;
+  color: #444;
+}
+table {
+  margin: 50px auto;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+}
+thead tr,
+tbody tr {
+  letter-spacing: 2px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+tbody tr:last-child {
+  border-bottom: 0;
+}
+thead tr th,
+tbody tr td {
+  text-align: center;
+  padding: 20px;
+}
+tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+tbody tr td:first-child {
+  color: royalblue;
+}
+tbody tr td:last-child {
+  background-color: lightseagreen;
+  color: white;
+  display: inline-block;
+  margin-top: 16px;
+  margin-left: 70px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  px5-webkit-border-radius: ;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  cursor: pointer;
+}
+
+.under-shipment td:last-child {
+  background-color: orangered;
+}
+.not-received td:last-child {
+  background-color: crimson;
+}
